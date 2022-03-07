@@ -1,0 +1,14 @@
+{
+	"CPP Boilerplate Code": {
+		"prefix": "cpp boilerplate code",
+		"body": [
+			"#include<iostream>\n",
+			"using namespace std;\n",
+			"int main() {",
+			"\t${0://Start Typing...}",
+			"\treturn 0;",
+			"}"
+		],
+		"description": "A Basic C++ Starting Template"
+	}
+}

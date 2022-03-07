@@ -1,0 +1,34 @@
+{
+	"C Boilerplate Code": {
+		"prefix": "c boilerplate code",
+		"body": [
+			"#include<stdio.h>\n",
+			"int main() {",
+			"\t${0://Start Typing...}",
+			"\treturn 0;",
+			"}"
+		],
+		"description": "A Basic C Starting Template"
+	},
+	"Take Input": {
+		"prefix": "scanf",
+		"body": [
+			"scanf(\"%${1}\", &${2});${0}"
+		],
+		"description": "A Basic C Starting Template"
+	},
+	"Print Static Value": {
+		"prefix": "print static value",
+		"body": [
+			"printf(\"${1}\");${0}"
+		],
+		"description": "A Basic C Starting Template"
+	},
+	"Print Dynamic Value": {
+		"prefix": "print dynamic value",
+		"body": [
+			"printf(\"${1}\", ${2});${0}"
+		],
+		"description": "A Basic C Starting Template"
+	}
+}
